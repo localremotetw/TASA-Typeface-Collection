@@ -6,6 +6,13 @@
 [E-Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flocalremotetw%2FTASA-Typeface-Collection%2Fgh-pages%2Fbadges%2FTASAExplorer%2Foverall.json&label=FontBakery%20QA%20(Explorer)
 [O-Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flocalremotetw%2FTASA-Typeface-Collection%2Fgh-pages%2Fbadges%2FTASAExplorer%2Foverall.json&label=FontBakery%20QA%20(Orbiter)
 
+
+
+**Available on Google Fonts!**  
+[TASA Explorer](https://fonts.google.com/specimen/TASA+Explorer) [TASA Orbiter](https://fonts.google.com/specimen/TASA+Orbiter)
+
+
+##
 The TASA Typeface Collection is a suite of two typefaces, TASA Explorer and TASA Orbiter, two typefaces originally commissioned by the [Taiwan Space Agency (TASA)](https://www.tasa.org.tw/en-US) as part of its institutional rebrand, and released under the SIL Open Font License.
 
 TASA Explorer is a geometric sans-serif designed to echo the adventurous spirit of space exploration. Its vertically cut terminals and sharp-angled corners lend a bold, assertive character that commands attention. Subtle contrast between thick and thin strokes adds visual fluidity, preventing the geometric structure from feeling rigid.
