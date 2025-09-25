@@ -6,6 +6,13 @@
 [E-Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flocalremotetw%2FTASA-Typeface-Collection%2Fgh-pages%2Fbadges%2FTASAExplorer%2Foverall.json&label=FontBakery%20QA%20(Explorer)
 [O-Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flocalremotetw%2FTASA-Typeface-Collection%2Fgh-pages%2Fbadges%2FTASAExplorer%2Foverall.json&label=FontBakery%20QA%20(Orbiter)
 
+
+
+**Available on Google Fonts!**  
+[TASA Explorer](https://fonts.google.com/specimen/TASA+Explorer) [TASA Orbiter](https://fonts.google.com/specimen/TASA+Orbiter)
+
+
+##
 The TASA Typeface Collection is a suite of two typefaces, TASA Explorer and TASA Orbiter, two typefaces originally commissioned by the [Taiwan Space Agency (TASA)](https://www.tasa.org.tw/en-US) as part of its institutional rebrand, and released under the SIL Open Font License.
 
 TASA Explorer is a geometric sans-serif designed to echo the adventurous spirit of space exploration. Its vertically cut terminals and sharp-angled corners lend a bold, assertive character that commands attention. Subtle contrast between thick and thin strokes adds visual fluidity, preventing the geometric structure from feeling rigid.
@@ -68,6 +75,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - Resolved uneven symmetric kerning and overkerned pairs.
 - Consistent kerning in small figures.
 
+**24 Jul 2025. Version 2.011**
+- Decomposed the components of black circled figures.
+
 ## Acknowledgements
 
 Thanks to Kiàn-tiong and GoRong for generously sharing their expertise on implementing and designing glyphs for Taiwanese Romanizations.
@@ -82,11 +92,13 @@ Thanks to all who provided feedback and encouragements throughout the design pro
 
 ## About the authors
 
-**Local Remote** is a design studio based in Taiwan, working with brands at the forefront of change, through means of experimental, experiential, and multi-sensory storytelling across virtual & physical presence.  
-[contact@localremote.co](mailto:contact@localremote.co) / <https://localremote.co/>
+**Local Remote**  was founded upon, and continues to be defined by, a commitment to unite brands with its people. We mix creativity with strategy, activating a chain reaction that ties together digital and spatial experiences.
+Through joint efforts with our clients and the backing of our cross-disciplinary team, we've cultivated an exceptionally wide array of capabilities within a boutique framework. This versatility empowers us to ideate and bring to life projects across various touch points—be it physical, digital, or environmental—viewing each as a valuable avenue for creativity to spark.
+We’re a diverse group—rooted locally, routed to a global stage.  
+[contact@localremote.co](mailto:contact@localremote.co) | [localremote.co](https://localremote.co/) | [Instagram](https://www.instagram.com/local.remote/)
 
 **Weizhong Zhang** is a freelance type and graphic designer based in Taipei, Taiwan. His practice centers on bilingual typography, exploring the relationship between Latin and Hanzi scripts. He works with studios and clients to create custom typefaces, logotypes, and lettering projects.  
-[adrianzwz@outlook.com](mailto:adrianzwz@outlook.com) / <https://azwz.work/>
+[adrianzwz@outlook.com](mailto:adrianzwz@outlook.com) | [azwz.work](https://azwz.work/) | [Instagram](https://www.instagram.com/a_a.zwz/)
 
 ## License
 
