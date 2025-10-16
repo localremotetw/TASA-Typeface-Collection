@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 1.0.1
+fontbakery version: 1.1.0
 
 
 
@@ -12,7 +12,7 @@ fontbakery version: 1.0.1
 
 
 
-<details><summary>[8] TASAOrbiter[wght].ttf</summary>
+<details><summary>[7] TASAOrbiter[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-family-name-compliance">googlefonts/family_name_compliance</a></summary>
@@ -69,10 +69,10 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, todhri, duployan, hebrew, canadian-aboriginal, malayalam, syriac, old-permic, math, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, hebrew, duployan, malayalam, tifinagh, syriac, tai-le, todhri, canadian-aboriginal, coptic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
@@ -80,12 +80,12 @@ definitions.</p>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, sunuwar, thai, tifinagh, cherokee, gothic, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, sunuwar, syriac, thai, cherokee, caucasian-albanian, gothic</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
@@ -128,14 +128,14 @@ definitions.</p>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
 <li>U+215F FRACTION NUMERATOR ONE: try adding symbols</li>
 <li>U+2189 VULGAR FRACTION ZERO THIRDS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21BA ANTICLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
@@ -170,20 +170,20 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, dogra, ahom, myanmar, khudawadi, mandaic, canadian-aboriginal, tai-viet, takri, meetei-mayek, zanabazar-square, phags-pa, kayah-li, tai-tham, manichaean, old-permic, tamil, masaram-gondi, tibetan, bengali, sinhala, nko, hebrew, bhaiksuki, lao, marchen, coptic, buhid, mongolian, kaithi, batak, elbasan, gujarati, syriac, buginese, newa, armenian, music, gurmukhi, oriya, thai, miao, syloti-nagri, balinese, siddham, limbu, tai-le, psalter-pahlavi, gunjala-gondi, brahmi, wancho, telugu, javanese, grantha, tifinagh, kannada, yi, caucasian-albanian, thaana, duployan, hanunoo, cham, saurashtra, chakma, tirhuta, new-tai-lue, khmer, tagbanwa, modi, kharoshthi, warang-citi, lepcha, tagalog, devanagari, sogdian, osage, adlam, khojki, sharada, mahajani, soyombo, pahawh-hmong, sundanese, hanifi-rohingya, symbols, mende-kikakui, rejang, malayalam, math</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: devanagari, cham, tai-le, psalter-pahlavi, warang-citi, hanunoo, bengali, khudawadi, bhaiksuki, lepcha, limbu, tai-tham, gujarati, miao, adlam, saurashtra, tibetan, brahmi, hanifi-rohingya, math, mandaic, pahawh-hmong, syloti-nagri, nko, khojki, tifinagh, elbasan, zanabazar-square, tagbanwa, gunjala-gondi, javanese, gurmukhi, thaana, manichaean, tamil, phags-pa, balinese, old-permic, duployan, malayalam, lao, syriac, yi, bassa-vah, masaram-gondi, hebrew, buhid, sogdian, kaithi, thai, sinhala, tagalog, caucasian-albanian, soyombo, chakma, new-tai-lue, marchen, grantha, telugu, coptic, kannada, takri, kharoshthi, tirhuta, buginese, meetei-mayek, kayah-li, batak, modi, ahom, symbols, mahajani, mende-kikakui, siddham, tai-viet, music, sundanese, myanmar, khmer, sharada, dogra, rejang, oriya, mongolian, newa, osage, canadian-aboriginal, armenian, wancho</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
-<li>U+25FB WHITE MEDIUM SQUARE: try adding one of: symbols, math</li>
+<li>U+25FB WHITE MEDIUM SQUARE: try adding one of: math, symbols</li>
 <li>U+25FC BLACK MEDIUM SQUARE: try adding symbols</li>
 <li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
 <li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
@@ -249,7 +249,19 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǧ</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ȟ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǩ</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -261,7 +273,19 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">The following auxiliary characters are missing from the font: ǧ</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ȟ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǩ</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -271,6 +295,26 @@ definitions.</p>
 <tr>
 <td align="left">The following auxiliary characters are missing from the font: ǯ</td>
 <td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ẽ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ĩ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ẽ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ĩ</td>
+<td align="left">lt_Latn (Lithuanian)</td>
 </tr>
 </tbody>
 </table>
@@ -355,24 +399,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2 VendorID value 'LCRM' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: unknown]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -383,8 +409,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 7 | 89 | 7 | 132 | 0 | 
-| 0% | 0% | 0% | 3% | 38% | 3% | 56% | 0% | 
+| 0 | 0 | 1 | 6 | 88 | 7 | 134 | 0 | 
+| 0% | 0% | 0% | 3% | 37% | 3% | 57% | 0% | 
 
 
 
