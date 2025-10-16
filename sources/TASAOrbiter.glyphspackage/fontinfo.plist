@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3434";
 .formatVersion = 3;
 axes = (
 {
@@ -74,7 +74,28 @@ feature ss01;
 tag = aalt;
 },
 {
-code = "lookup ccmp_tl_poj {
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb verticallineabovecomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case verticallineabovecomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_tl_poj {
     # 2th tone of TL, POJ
     sub a acutecomb by aacute;
     sub e acutecomb by eacute;
@@ -182,6 +203,9 @@ code = "lookup ccmp_tl_poj {
     sub N verticallineabovecomb by Nverticallineabove;
     sub o dotaboverightcomb verticallineabovecomb by overticallineabovedotaboveright;
     sub O dotaboverightcomb verticallineabovecomb by Overticallineabovedotaboveright;
+# Still not sure why only at the 8th tone these two lines are needed, but it works for now ;)
+    sub o verticallineabovecomb dotaboverightcomb by overticallineabovedotaboveright;
+    sub O verticallineabovecomb dotaboverightcomb by Overticallineabovedotaboveright;
 
     # 9th tone of TL
     sub a hungarumlautcomb by ahungarumlaut;
@@ -232,32 +256,16 @@ code = "lookup ccmp_tl_poj {
     sub Ocaron dotaboverightcomb by Ocarondotaboveright;
     sub omacron dotaboverightcomb by omacrondotaboveright;
     sub Omacron dotaboverightcomb by Omacrondotaboveright;
+	sub overticallineabove dotaboverightcomb by overticallineabovedotaboveright;
+	sub Overticallineabove dotaboverightcomb by Overticallineabovedotaboveright;
     sub ohungarumlaut dotaboverightcomb by ohungarumlautdotaboveright;
     sub Ohungarumlaut dotaboverightcomb by Ohungarumlautdotaboveright;
     sub obreve dotaboverightcomb by obrevedotaboveright;
     sub Obreve dotaboverightcomb by Obrevedotaboveright;
 } ccmp_tl_poj;
+lookup ccmp_tl_poj;
 
-lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
-} ccmp_DFLT_1;
 
-lookup ccmp_Other_1 {
-	lookupflag 0;
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb verticallineabovecomb];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case verticallineabovecomb.case];
-	sub @Markscomb @Markscomb' by @MarkscombCase;
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	lookupflag 0;
-	sub @Markscomb' @MarkscombCase by @MarkscombCase;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -538,6 +546,7 @@ sub ringcomb by ringcomb.case;
 sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
 sub verticallineabovecomb by verticallineabovecomb.case;
+sub slashlongcomb by slashlongcomb.case;
 ";
 tag = case;
 },
