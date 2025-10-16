@@ -8,7 +8,7 @@
 
 
 
-**Available on Google Fonts!**  
+**Available on Google Fonts!** `v2.011`  
 [TASA Explorer](https://fonts.google.com/specimen/TASA+Explorer) [TASA Orbiter](https://fonts.google.com/specimen/TASA+Orbiter)
 
 
@@ -65,7 +65,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - Initial release.
 
 **12 May 2023. Version 1.001**
-- Removed overlaps on glyphs U+2194, U+2195.
+- Removed overlaps on glyphs `U+2194`, `U+2195`.
 
 **16 Jul 2025. Version 2.000**
 - Complete redesign of both typefaces.
@@ -77,6 +77,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 **24 Jul 2025. Version 2.011**
 - Decomposed the components of black circled figures.
+
+**16 Oct 2025. Version 2.012**
+- fixed `ccmp` on `/overticallineabovedotaboveright`.
 
 ## Acknowledgements
 
@@ -115,5 +118,6 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 - [Rebrand Project (Rytass)](https://rytass.com/projects/TASA)
 - [ButTaiwanKit | But的台灣字型工具](https://github.com/ButTaiwan/GlyphsTools/tree/main/ButTaiwanKit)
 - [Formosan Languages Diacritics in Glyphs | 讓字型支援台客族語！本土語言調號的設定指南 - justfont blog](https://blog.justfont.com/2024/12/formosan_languages_diacritics_in_glyphs/)
+- [TASA jī-hîng hē-lia̍t: Tâi-gí jī-hîng tsiūnn thài-khong | 陳建中｜Tân Kiàn-tiong](https://kiantiong.com/jihing/tasa_typeface_collection_intro/)
 - [Tâi-uân Lô-má-jī Phing-im Hong-àn - Wikipedia](https://en.wikipedia.org/wiki/T%C3%A2i-u%C3%A2n_L%C3%B4-m%C3%A1-j%C4%AB_Phing-im_Hong-%C3%A0n)
 - [Pe̍h-ōe-jī - Wikipedia](https://en.wikipedia.org/wiki/Pe%CC%8Dh-%C5%8De-j%C4%AB)
